@@ -1,0 +1,168 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+*{
+
+}
+
+h1{
+margin:0px;
+}
+
+.p-1{
+padding: 0.3rem;
+}
+
+p{
+margin:5px
+}
+
+.center-container{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.heading{
+margin-right: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.flex-break{
+height: 0px;
+min-width: 100%;
+}  
+
+.login-form{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+input{
+margin: 0px;
+}
+
+.button-sub{
+display: inline-block;
+outline: 0;
+border: none;
+cursor: pointer;
+font-weight: 600;
+border-radius: 15px;
+font-size: 13px;
+height: 30px;
+background-color: #9147ff;
+color: white;
+padding: 0 20px;
+}
+
+.button-sub:hover {
+    background-color: #772ce8;
+}
+
+.button-sub:active{
+    transform: translateY(5px);
+}
+
+.input{
+color: white;
+border: 1px solid #e8e8e8;
+padding: 7px;
+border-radius: 8px;
+background-color: #212121;
+font-size: small;
+font-weight: bold;
+text-align: center;
+}
+.input:focus {
+outline-color: white;
+background-color: #212121;
+color: #e8e8e8;
+box-shadow: 5px 5px #888888;
+}
+
+.pb-1{
+    padding-bottom: 1rem;
+}
+
+.input-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
